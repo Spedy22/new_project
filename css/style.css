@@ -1,0 +1,68 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "ITC Avant Garde Gothic Std", sans-serif;
+  --basic-bacground: #f5f5f5;
+  --yellow: #f0e714;
+  --hero-title: #f3f4f6;
+  --white: #ffffff;
+  --gray: #b9b9b9;
+  --bacground-yellow-button: rgba(240, 231, 20, 0.2);
+  --orange: #f37825;
+  --bacground-footer: #101c26;
+  --title-color: #24272e;
+  --subtitle: #555c68;
+}
+
+ul,
+li {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid green;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--bacground-footer);
+}
+/* logo */
+
+.header-logo__rise {
+  width: 65px;
+  height: 29px;
+  margin-bottom: 9.22px;
+}
+
+.header-logo {
+  width: 29px;
+  height: 38px;
+}
+
+.header-logo__creative {
+  width: 83px;
+  height: 18px;
+}
