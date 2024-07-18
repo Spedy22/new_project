@@ -38,7 +38,7 @@ p {
 }
 
 .container {
-  width: 1280px;
+  width: 1310px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -163,8 +163,17 @@ p {
   background-color: var(--bacground-footer);
 }
 
+.hero-container{
+  padding-top: 44px;
+  padding-bottom: 67px;
+}
+
 .hero__important{
   display: flex;
+}
+
+.hero-box{
+  margin-top: 57px;
 }
 
 .hero__title {
@@ -272,7 +281,7 @@ p {
 .privileges__list {
   display: flex;
   justify-content: space-between;
-  width: 444px;
+  width: 376px;
 }
 
 .privileges__text {
@@ -287,10 +296,57 @@ p {
   color: var(--yellow);
 }
 
+.privileges__span{
+  margin-top: 4px;
+}
+
+.pluse{
+  font-size: 48px;
+}
+
+.percentage{
+  font-size: 28px;
+}
+
 .privileges__subtitle{
   font-family: var(--second-family);
 font-weight: 500;
 font-size: 16px;
 line-height: 175%;
 color: var(--white);
+}
+
+.hero__image{
+  margin-left: 74px;
+}
+
+/* company */
+
+.header-company{
+  margin-top: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-compny{
+  height: 50px;
+}
+.google{
+  width: 101px;
+}
+
+.dropbox{
+  width: 166px;
+}
+
+.amazon{
+  width: 114.84px;
+}
+
+.atlassian{
+  width: 187.92px;
+}
+
+.hubspot{
+  width: 123.43px;
 }
