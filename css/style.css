@@ -1,6 +1,6 @@
 :root {
   --font-family: "Inter", sans-serif;
-  --second-family: "ITC Avant Garde Gothic Std", sans-serif;
+  --second-family: "League Spartan", sans-serif;
   --basic-bacground: #f5f5f5;
   --yellow: #f0e714;
   --hero-title: #f3f4f6;
@@ -196,9 +196,15 @@ p {
   height: 38px;
 }
 
+.hero__box{
+  display: flex;
+  align-items: center;
+}
+
 .hero__button{
   display: flex;
   align-items: center;
+  margin-right: 23px;
   padding-top: 18px;
   padding-right: 36px;
   padding-bottom: 18px;
@@ -209,7 +215,6 @@ p {
   font-family: var(--second-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
   color: var(--title-color);
   cursor: pointer;
 }
@@ -235,6 +240,24 @@ p {
   fill: var(--title-color);
 }
 
+.hero-box__link{
+  display: flex;
+  align-items: center;
+}
 
+.hero-box__play{
+  width: 30px;
+  height: 30px;
+}
+
+.hero-box__subtitle{
+  margin-left: 12px;
+
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+}
 
 /* about */
