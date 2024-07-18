@@ -52,7 +52,7 @@ p {
   display: flex;
 }
 
-.header__box{
+.header__box {
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
@@ -60,7 +60,7 @@ p {
 }
 /* logo */
 
-.header-logo__box{
+.header-logo__box {
   display: flex;
   align-items: center;
 }
@@ -83,7 +83,7 @@ p {
 
 /* navigation */
 
-.header-navigation__list{
+.header-navigation__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,7 +91,7 @@ p {
   width: 412px;
 }
 
-.header-navigation__link{
+.header-navigation__link {
   font-family: var(--second-family);
   font-weight: 500;
   font-size: 16px;
@@ -99,26 +99,26 @@ p {
 }
 
 .header-navigation__link:hover,
-.header-navigation__link:focus{
-  color: var(--white) ;
+.header-navigation__link:focus {
+  color: var(--white);
 }
 
 /* header button */
 
-.header-button__list{
+.header-button__list {
   display: flex;
   align-items: center;
 }
 
-.header-button__item{
+.header-button__item {
   margin-right: 16px;
 }
 
-.header-button__item:last-child{
+.header-button__item:last-child {
   margin-right: 0;
 }
 
-.header-button{
+.header-button {
   border-radius: 100px;
   height: 50px;
   width: 117px;
@@ -128,7 +128,7 @@ p {
   line-height: 150%;
 }
 
-.color-transperent{
+.color-transperent {
   border: 2px solid var(--gray);
   background-color: transparent;
   color: var(--gray);
@@ -136,21 +136,21 @@ p {
 }
 
 .color-transperent:hover,
-.color-transperent:focus{
+.color-transperent:focus {
   color: var(--white);
-  border-color: var(--white);  
+  border-color: var(--white);
   background-color: var(--black);
 }
 
-.color-yellow{
-  border:none;
+.color-yellow {
+  border: none;
   background-color: var(--yellow);
   color: var(--bacground-footer);
   cursor: pointer;
 }
 
 .color-yellow:hover,
-.color-yellow:focus{
+.color-yellow:focus {
   color: var(--white);
   border: 2px solid var(--gray);
   background-color: rgba(255, 255, 255, 0.185);
@@ -159,11 +159,15 @@ p {
 /* MAIN */
 /* hero */
 
-.hero{
+.hero {
   background-color: var(--bacground-footer);
 }
 
-.hero__title{
+.hero__important{
+  display: flex;
+}
+
+.hero__title {
   margin-bottom: 24px;
 
   width: 534px;
@@ -175,13 +179,13 @@ p {
   color: var(--hero-title);
 }
 
-.hero__container{
+.hero__container {
   display: flex;
   margin-bottom: 40px;
 }
 
-.hero__subtitle{
-  width: 427px;
+.hero__subtitle {
+  width: 382px;
   font-family: var(--second-family);
   font-weight: 500;
   font-size: 20px;
@@ -190,18 +194,19 @@ p {
   color: var(--hero-title);
 }
 
-.hero__star{
-  margin-left: 10px;
+.hero__star {
+  margin-left: 20px;
   width: 38px;
   height: 38px;
 }
 
-.hero__box{
+.hero__box {
   display: flex;
   align-items: center;
+  margin-bottom: 75px;
 }
 
-.hero__button{
+.hero__button {
   display: flex;
   align-items: center;
   margin-right: 23px;
@@ -210,47 +215,49 @@ p {
   padding-bottom: 18px;
   padding-left: 36px;
   border-radius: 100px;
+  margin-right: 23px;
   border-color: transparent;
   background-color: var(--yellow);
   font-family: var(--second-family);
   font-weight: 500;
   font-size: 16px;
+  line-height: 150%;
   color: var(--title-color);
   cursor: pointer;
 }
 
 .hero__button:hover .hero__arrow,
-.hero__button:focus .hero__arrow{
+.hero__button:focus .hero__arrow {
   color: var(--white);
   fill: var(--white);
 }
 
 .hero__button:hover,
-.hero__button:focus{
+.hero__button:focus {
   color: var(--white);
   background-color: rgba(255, 255, 255, 0.185);
   border: 3px solid var(--gray);
-
 }
 
-.hero__arrow{
+.hero__arrow {
   margin-left: 10px;
   width: 24px;
   height: 16px;
   fill: var(--title-color);
 }
 
-.hero-box__link{
+.hero-box__link {
   display: flex;
   align-items: center;
 }
 
-.hero-box__play{
+.hero-box__play {
   width: 30px;
   height: 30px;
 }
 
-.hero-box__subtitle{
+.hero-box__subtitle {
+  margin-top: 5px;
   margin-left: 12px;
 
   font-family: var(--second-family);
@@ -260,4 +267,30 @@ p {
   color: var(--white);
 }
 
-/* about */
+/* privileges */
+
+.privileges__list {
+  display: flex;
+  justify-content: space-between;
+  width: 444px;
+}
+
+.privileges__text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 127%;
+  color: var(--yellow);
+}
+
+.privileges__subtitle{
+  font-family: var(--second-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 175%;
+color: var(--white);
+}
