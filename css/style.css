@@ -219,12 +219,12 @@ p {
   display: flex;
   align-items: center;
   margin-right: 23px;
-  padding-top: 18px;
-  padding-right: 36px;
-  padding-bottom: 18px;
-  padding-left: 36px;
+
+  width: 197px;
+  height: 60px;
+  justify-content: center;
+
   border-radius: 100px;
-  margin-right: 23px;
   border-color: transparent;
   background-color: var(--yellow);
   font-family: var(--second-family);
@@ -243,6 +243,11 @@ p {
 
 .hero__button:hover,
 .hero__button:focus {
+  padding-top: 15.25px;
+  padding-bottom: 15.25px;
+  padding-right: 34.9px ;
+  padding-left: 34.9px ;
+
   color: var(--white);
   background-color: rgba(255, 255, 255, 0.185);
   border: 3px solid var(--gray);
