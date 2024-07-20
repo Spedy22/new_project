@@ -353,3 +353,126 @@ color: var(--white);
 .hubspot{
   width: 123.43px;
 }
+
+/* about */
+
+.about{
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+
+.about__container{
+  margin-top: 53.5px;
+  margin-bottom: 53.5px;
+  margin-left: 30px;
+}
+
+.about__above{
+  display: inline-flex;
+  padding: 10px 15px;
+  margin-bottom: 24px;
+
+
+  border-radius: 100px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--title-color);
+  min-width: 115px;
+  background-color: var(--bacground-yellow-button);
+}
+
+.about__title{
+  margin-bottom: 16px;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 127%;
+  color: var(--title-color);
+}
+
+.about__subtitle{
+  margin-bottom: 40px;
+  width: 508px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--subtitle);
+}
+
+.about__link{
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 34px;
+
+  border-radius: 100px;
+  background-color: var(--title-color);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 157%;
+  color: var(--yellow);
+}
+
+.about__arrow{
+  margin-left: 6px;
+  fill: var(--yellow);
+  width: 15px;
+  height: 11px;
+}
+
+/* choose */
+
+.choose{
+  display: flex;
+  padding-top: 70px;
+}
+
+.choose__above{
+  display: inline-flex;
+  padding: 10px 16px;
+  margin-bottom: 24px;
+  border-radius: 100px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  min-width: 169px;
+  text-transform: uppercase;
+  color: var(--title-color);
+  background-color: var(--bacground-yellow-button);
+}
+
+.choose__title{
+  margin-bottom: 16px;
+  width: 490px;
+
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 127%;
+  color: var(--title-color);
+}
+
+.choose__subtitle{
+  width: 477px;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: var(--subtitle);
+}
+
+.choose__item{
+  display: flex;
+}
+
+.choose__icon{
+  /* padding: 18px; */
+  width: 32px;
+  height: 32px;
+}
